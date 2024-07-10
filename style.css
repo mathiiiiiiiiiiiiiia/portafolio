@@ -1,0 +1,279 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+}
+
+
+
+
+/*Barrita de navegacion*/
+.navbar {
+    background-color: #000000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    font-weight: bold;
+    text-shadow: 4px 4px rgb(87, 87, 87);
+}
+
+.logo img {
+    height: 50px;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline;
+    margin-left: 20px;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    color: #ff6600;
+}
+
+
+
+
+/*inicio logo*/
+.logo-1{
+background-image: url(fondologo.jpg);
+background-size:cover ;
+padding: 100px;
+height: 700px;
+display: flex;
+justify-content: center;
+}
+
+.logoentrada{
+    padding: 160px;
+}
+
+.logoentrada:hover{
+
+    transition: transform 0.7s ease-in-out;
+    transform: scale(1.03);
+
+}
+/* Inicio*/
+
+
+.inicio-as{
+    background-image: url(fondoinicio.jpg);
+    background-size: cover;
+}
+
+.inicio-at{
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    font-size: 50px;
+    margin: 20px 20px;
+
+}
+
+.inicio-at p{
+    display: flex;
+    align-items: center;
+    
+}
+
+.educacion{    
+    margin-right: 300px;
+
+}
+
+.imagen-inicio{
+    border-radius: 50%;
+}
+
+.presentation{
+    color: #ffffff;
+    text-decoration: none ;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.inicio-as{
+    background-image: url(fondoinicio.jpg);
+    background-size: cover;
+   
+
+
+    align-items: center;
+    padding: 100px;
+    height: 500px;
+}
+
+/*acerca de*/
+
+.acerca-de{
+    background-image: url(fondo-acerca-de.jpg);
+    padding: 100px;
+    height: 750px;  
+}
+
+.acercade{
+
+    color: #fff;
+    font-weight: bold;
+    height: 100px;
+    font-size: 50px;
+    font-family: georgia, serif;
+}
+
+
+
+
+.preg-1 {
+
+
+
+
+    color: aliceblue;
+}
+
+
+
+
+.preg-2{
+
+
+
+
+    color: aliceblue;
+}
+
+
+
+
+.preg-3{
+    color: aliceblue;
+}
+
+
+
+
+.quien-soy  {
+    color: #fff;
+    display: flex;
+    justify-content: left;
+
+
+
+
+}
+
+.hobbies{
+    color: #fff;
+    display: flex;
+    justify-content: left;
+}
+
+
+.avance{
+    color: #fff;
+    display: flex;
+    justify-content: left;
+}
+
+
+/*experiencias*/
+
+
+.experiencias{
+    background-color: #c2c2c2;
+    
+}
+
+
+.expe{
+    display: flex;
+    padding-left: 70px;
+    font-weight: bold;
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#progressBar {
+    width: 700px;
+    height: 60px;
+    background-color: #a19e9c;
+
+
+
+    /* Color de fondo */
+    margin-left: 20px;
+    border: solid 5px rgba(43, 28, 28, 0.377);
+
+}
+
+#progressBar::-webkit-progress-bar:hover {
+    background-color: #918b86;
+    box-shadow: 10px 8px rgba(194, 173, 173, 0.151);
+}
+
+#progressBar::-webkit-progress-value {
+    background-color: rgb(32, 26, 24);
+    border-right: solid 10px rgb(63, 55, 55);
+    /* Color de la barra de progreso */
+}
+
+#progressBar::-webkit-progress-value:hover {
+    background-color: rgb(63, 55, 55);
+    transition: background-color 200ms ease;
+    background-image: none;
+}
+
+.progress-bars {
+    display: block;
+    margin-top: 30px;
+}
+
+.contenedor-barra {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    height: 80px;
+    width: 700px;
+    padding-right: 40px;
+
+
+}
+
+.percent {
+    font-family: "League Gothic", sans-serif;
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+    margin-left: 30px;
+}
+
+.text-skills{
+
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "League Gothic", sans-serif;
+    font-size: 30px;
+    color: rgb(87, 63, 63);
+    margin-left: 10px;
+    list-style-type: none;
+}
+
+/*pornhub*/
+
